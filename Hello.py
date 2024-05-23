@@ -18,7 +18,7 @@ response.raise_for_status()
 weather_data = response.json() #convert the data into json format
 
 #Twilio authorisation keys
-account_sid = "AC7d82330573c28530d409fcf4fa2d9fd9"
+account_sid = "XXXXX"
 auth_token = os.environ.get("AUTH_TOKEN")
 
 #analysing the data
