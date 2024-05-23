@@ -4,7 +4,7 @@ from twilio.rest import Client
 
 #API connection
 url= "https://api.openweathermap.org/data/2.5/forecast"
-api_key = os.environ.get("OPENWEATHER_API_KEY")
+api_key = os.environ.get("XXXX")
 weather_params = {
     "lat": 25.286106,
     "lon": 51.534817,
@@ -19,7 +19,7 @@ weather_data = response.json() #convert the data into json format
 
 #Twilio authorisation keys
 account_sid = "XXXXX"
-auth_token = os.environ.get("AUTH_TOKEN")
+auth_token = os.environ.get("XXX")
 
 #analysing the data
 is_raining = False
